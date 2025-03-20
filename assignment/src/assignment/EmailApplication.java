@@ -1,3 +1,4 @@
+//Email Application
 package assignment;
 
 import java.util.Scanner;
