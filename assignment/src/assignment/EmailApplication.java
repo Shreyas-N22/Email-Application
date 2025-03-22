@@ -4,13 +4,13 @@ package assignment;
 import java.util.Scanner;
 
 class Email {
-    private String firstName;
-    private String lastName;
-    private String password;
-    private int mailboxCapacity = 500;
-    private String alternateEmail;
-    private String email;
-    private static final int defaultpasswordlength = 8;
+    String firstName;
+    String lastName;
+    String password;
+    int mailboxCapacity = 500;
+    String alternateEmail;
+    String email;
+    static final int defaultpasswordlength = 8;
     
     public Email(String firstName, String lastName) {
         this.firstName = firstName;
